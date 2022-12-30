@@ -1,8 +1,50 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+
+} */
+
+
 /* NAVIGATION */
 .rest-nav {
+    text-align: center;
+    list-style-type: none;
 
 }
 
-.nav-links {
+#nav-links {
+    text-align: center;
+    list-style-type: none;
     
 }
+
+li {
+    display: inline;
+    padding: 14px 16px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    float: left;
+    height: 7%;
+    width: 7%;
+    
+}
+
+
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
